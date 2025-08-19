@@ -1,0 +1,198 @@
+{
+  "id": "112",
+  "name": "Maria Makiling",
+  "position": "Senior Developer",
+  "employeePerformanceArtifacts": [
+    {
+      "artifactId": "112-GCP-ACE-10293847",
+      "artifact_identifier": "ProfessionalCertification",
+      "employeeId": "112",
+      "createdAt": "2025-08-06T22:33:48.000Z",
+      "source": "GoogleWorkspace",
+      "importance": "High",
+      "competencyInsights": [
+        "Demonstrates proficiency in deploying, monitoring, and maintaining projects on Google Cloud, validating core skills for cloud-based roles.",
+        "Possesses practical, hands-on skills using both the Google Cloud Console and the command-line interface to manage deployed solutions.",
+        "The achievement of a globally recognized certification from a leading cloud provider highlights a commitment to professional development and staying current with industry standards.",
+        "Successfully passed a rigorous, proctored exam, indicating a solid theoretical understanding and the ability to perform under pressure.",
+        "Confirmed proficiency with a wide range of Google Cloud services and tools, which is a direct indicator of technical capabilities in the cloud domain."
+      ],
+      "provider": "Google Cloud",
+      "certificate_description": "Validates the ability to deploy applications, monitor operations, and manage enterprise solutions. Associate Cloud Engineers are able to use Google Cloud Console and the command-line interface to perform common platform-based tasks to maintain one or more deployed solutions that leverage Google-managed or self-managed services on Google Cloud.",
+      "expiry": "2027-06-15T00:00:00.000Z"
+    }
+  ],
+  "employeeEvaluationSheets": [
+    {
+      "employeeId": "112",
+      "evaluationDate": "2025-08-06",
+      "competencyEvaluations": [
+        {
+          "competency": "Execution",
+          "competencyLevel": {
+            "1": { "factors": [] },
+            "2": {
+              "factors": [
+                {
+                  "competencyLevelFactorDescription": "Completes well-scoped tasks with moderate supervision, demonstrates consistency and reliability, and begins managing small tasks independently with a focus on learning efficiency.",
+                  "employeePerformanceArtifactInsights": ["Successfully passed a rigorous, proctored exam, indicating a solid theoretical understanding and the ability to perform under pressure."],
+                  "score": { "consistency": 70, "confidence": 75 },
+                  "conclusion": {
+                    "points": 88,
+                    "explanation": "The high consistency and confidence scores are well-supported by the evidence of passing a rigorous, proctored GCP exam. This demonstrates reliability and the ability to perform under pressure, which are key aspects of this factor. For a Senior Developer, strong performance at this foundational level is expected, and it is contextually supported by her advanced technical skills at higher levels. This indicates her core execution skills are very solid."
+                  }
+                }
+              ]
+            },
+            "3": { "factors": [] },
+            "4": {
+              "factors": [
+                {
+                  "competencyLevelFactorDescription": "Always prepared, able to propose and execute next steps",
+                  "employeePerformanceArtifactInsights": ["The achievement of a globally recognized certification from a leading cloud provider highlights a commitment to professional development and staying current with industry standards."],
+                  "score": { "consistency": 65, "confidence": 60 },
+                  "conclusion": {
+                    "points": 72,
+                    "explanation": "The scores indicate good performance. Achieving a high-level certification demonstrates a proactive commitment to professional development, which aligns with being prepared. While the evidence doesn't directly show proposal of next steps in a project, her strong technical capabilities, especially in infrastructure, provide a strong contextual argument that she possesses the knowledge to do so effectively."
+                  }
+                }
+              ]
+            },
+            "5": { "factors": [] },
+            "6": { "factors": [] },
+            "7": { "factors": [] },
+            "8": { "factors": [] },
+            "9": { "factors": [] }
+          }
+        },
+        {
+          "competency": "Leadership",
+          "competencyLevel": {
+            "1": { "factors": [] },
+            "2": { "factors": [] },
+            "3": { "factors": [] },
+            "4": { "factors": [] },
+            "5": { "factors": [] },
+            "6": { "factors": [] },
+            "7": { "factors": [] },
+            "8": { "factors": [] },
+            "9": { "factors": [] }
+          }
+        },
+        {
+          "competency": "Technical Capabilities",
+          "competencyLevel": {
+            "1": { "factors": [] },
+            "2": { "factors": [] },
+            "3": { "factors": [] },
+            "4": { "factors": [] },
+            "5": {
+              "factors": [
+                {
+                  "competencyLevelFactorDescription": "Develop programs that ensure maintainability, including future scalability and ease of modification",
+                  "employeePerformanceArtifactInsights": ["Demonstrates proficiency in deploying, monitoring, and maintaining projects on Google Cloud, validating core skills for cloud-based roles."],
+                  "score": { "consistency": 75, "confidence": 75 },
+                  "conclusion": {
+                    "points": 90,
+                    "explanation": "The high scores are directly validated by the GCP certification, which focuses on deploying and maintaining scalable and robust solutions. This artifact is strong evidence of her ability to develop for maintainability and scalability, confirming exceptional performance in this area."
+                  }
+                },
+                {
+                  "competencyLevelFactorDescription": "Understand the adopted application architecture (e.g., Clean Architecture) and develop new features in alignment with the intent of the framework in use",
+                  "employeePerformanceArtifactInsights": ["Successfully passed a rigorous, proctored exam, indicating a solid theoretical understanding and the ability to perform under pressure."],
+                  "score": { "consistency": 60, "confidence": 55 },
+                  "conclusion": {
+                    "points": 65,
+                    "explanation": "The moderate scores reflect that the evidence—passing a theoretical exam—supports foundational knowledge but not the direct application of a specific internal architecture. However, her proven ability to comprehend complex infrastructure (seen in other factors) provides positive context, suggesting she is capable of understanding and aligning with architectural frameworks."
+                  }
+                },
+                {
+                  "competencyLevelFactorDescription": "Independently troubleshoot and resolve complex production errors",
+                  "employeePerformanceArtifactInsights": ["Possesses practical, hands-on skills using both the Google Cloud Console and the command-line interface to manage deployed solutions."],
+                  "score": { "consistency": 70, "confidence": 75 },
+                  "conclusion": {
+                    "points": 88,
+                    "explanation": "High performance is confirmed by evidence of practical, hands-on skills with GCP Console and CLI. These are primary tools for investigating and resolving production issues in a cloud environment, making the evidence highly relevant and supporting the high scores for independent troubleshooting."
+                  }
+                },
+                {
+                  "competencyLevelFactorDescription": "Comprehend the overall infrastructure of the product and explain it to others",
+                  "employeePerformanceArtifactInsights": [
+                    "Demonstrates proficiency in deploying, monitoring, and maintaining projects on Google Cloud, validating core skills for cloud-based roles.",
+                    "Possesses practical, hands-on skills using both the Google Cloud Console and the command-line interface to manage deployed solutions.",
+                    "Confirmed proficiency with a wide range of Google Cloud services and tools, which is a direct indicator of technical capabilities in the cloud domain."
+                  ],
+                  "score": { "consistency": 85, "confidence": 85 },
+                  "conclusion": {
+                    "points": 95,
+                    "explanation": "Exceptional scores are supported by multiple, strong pieces of evidence from the GCP certification. This highlights a deep, validated understanding of cloud infrastructure, services, and management tools, indicating an expert-level ability to comprehend and articulate the product's infrastructure."
+                  }
+                }
+              ]
+            },
+            "6": {
+              "factors": [
+                {
+                  "competencyLevelFactorDescription": "Able to comprehend the overall infrastructure of the product and suggest improvements",
+                  "employeePerformanceArtifactInsights": ["Confirmed proficiency with a wide range of Google Cloud services and tools, which is a direct indicator of technical capabilities in the cloud domain."],
+                  "score": { "consistency": 68, "confidence": 70 },
+                  "conclusion": {
+                    "points": 85,
+                    "explanation": "While the scores are good, they are contextually bolstered by the exceptional performance (95 points) in the related Level 5 factor for comprehending infrastructure. Her proven deep understanding of a wide range of cloud tools strongly implies the ability to suggest meaningful improvements, justifying a higher conclusion score."
+                  }
+                },
+                {
+                  "competencyLevelFactorDescription": "Able to drive improvements in their area of technical expertise.",
+                  "employeePerformanceArtifactInsights": ["The achievement of a globally recognized certification from a leading cloud provider highlights a commitment to professional development and staying current with industry standards."],
+                  "score": { "consistency": 60, "confidence": 60 },
+                  "conclusion": {
+                    "points": 68,
+                    "explanation": "The adequate scores are based on evidence of personal commitment to professional development. Achieving a major certification demonstrates personal drive, which is a precursor to driving wider improvements. While not direct evidence of driving team or project enhancements, it indicates strong initiative and potential in her area of expertise."
+                  }
+                }
+              ]
+            },
+            "7": {
+              "factors": [
+                {
+                  "competencyLevelFactorDescription": "Able to develop features that require advanced technical expertise",
+                  "employeePerformanceArtifactInsights": ["Confirmed proficiency with a wide range of Google Cloud services and tools, which is a direct indicator of technical capabilities in the cloud domain."],
+                  "score": { "consistency": 75, "confidence": 75 },
+                  "conclusion": {
+                    "points": 90,
+                    "explanation": "The high scores are strongly supported by the certification, which validates proficiency across a wide array of Google Cloud tools and services. This is direct evidence of possessing the advanced technical expertise required to develop sophisticated features within her domain."
+                  }
+                },
+                {
+                  "competencyLevelFactorDescription": "Able to understand SLI/SLO principles and maintain the reliability of applications in operation",
+                  "employeePerformanceArtifactInsights": ["Demonstrates proficiency in deploying, monitoring, and maintaining projects on Google Cloud, validating core skills for cloud-based roles."],
+                  "score": { "consistency": 75, "confidence": 75 },
+                  "conclusion": {
+                    "points": 92,
+                    "explanation": "Excellent performance is clearly demonstrated through the GCP certification, which heavily emphasizes the skills of monitoring operations and maintaining deployed solutions. These are the practical applications of SLI/SLO principles, confirming her ability to ensure application reliability."
+                  }
+                }
+              ]
+            },
+            "8": { "factors": [] },
+            "9": { "factors": [] }
+          }
+        },
+        {
+          "competency": "Project Management Skills",
+          "competencyLevel": {
+            "1": { "factors": [] },
+            "2": { "factors": [] },
+            "3": { "factors": [] },
+            "4": { "factors": [] },
+            "5": { "factors": [] },
+            "6": { "factors": [] },
+            "7": { "factors": [] },
+            "8": { "factors": [] },
+            "9": { "factors": [] }
+          }
+        }
+      ]
+    }
+  ]
+}

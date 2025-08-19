@@ -1,0 +1,156 @@
+/* Chart-specific styles using utility-first approach */
+
+/* Ensure charts maintain their exact heights from HTML reference */
+.chart-container {
+  /* Bootstrap utility classes equivalent */
+  padding: 1rem;
+}
+
+/* Radar chart container - exact height from HTML (500px) */
+.radar-chart-container {
+  /* Bootstrap utility classes equivalent */
+  min-height: 500px;
+  width: 100%;
+}
+
+/* Slope chart container - exact height from HTML (350px) + full width + rectangular */
+.slope-chart-container {
+  /* Bootstrap utility classes equivalent */
+  min-height: 350px;
+  width: 100%;
+  max-height: 350px;
+  display: flex;
+  align-items: stretch;
+  justify-content: stretch;
+}
+
+/* Ensure the ApexCharts component expands to fill the flex container */
+.slope-chart-container > div {
+  flex: 1;
+  width: 100%;
+  min-width: 0;
+}
+
+/* Comparison chart container - exact height from HTML (300px) */
+.comparison-chart-container {
+  /* Bootstrap utility classes equivalent */
+  min-height: 300px;
+  width: 100%;
+}
+
+/* Ensure charts fill their containers properly */
+.chart-wrapper {
+  /* Bootstrap utility classes equivalent */
+  width: 100%;
+  height: 100%;
+}
+
+/* Ensure ApexCharts fills the slope container properly */
+.slope-chart-container .apexcharts-canvas {
+  width: 100% !important;
+  height: 350px !important;
+  flex: 1;
+}
+
+/* Force rectangular aspect ratio for slope chart */
+.slope-chart-container svg {
+  width: 100% !important;
+  height: 350px !important;
+}
+
+/* Ensure the chart container itself expands */
+.slope-chart-container .apexcharts-container {
+  width: 100% !important;
+  height: 100% !important;
+}
+
+/* Fix legend overflow and positioning issues */
+.slope-chart-container .apexcharts-legend {
+  overflow: visible !important;
+  max-width: none !important;
+}
+
+.slope-chart-container .apexcharts-legend-text {
+  white-space: nowrap !important;
+  overflow: visible !important;
+}
+
+/* Ensure legend items don't get truncated */
+.slope-chart-container .apexcharts-legend-marker {
+  margin-right: 8px !important;
+}
+
+.slope-chart-container .apexcharts-legend-item {
+  margin-right: 16px !important;
+}
+
+/* Card header styling - remove default background */
+.card-header {
+  background-color: #ffffff !important;
+  border-bottom: 1px solid #dee2e6;
+  padding: 1rem 1.25rem;
+}
+
+/* Card styling improvements */
+.card {
+  border: 1px solid #e9ecef;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+  border-radius: 0.5rem;
+}
+
+/* Responsive chart sizing */
+@media (max-width: 768px) {
+  .chart-container {
+    padding: 1rem;
+  }
+
+  .radar-chart-container {
+    min-height: 400px;
+  }
+
+  .slope-chart-container {
+    min-height: 300px;
+  }
+
+  .comparison-chart-container {
+    min-height: 250px;
+  }
+}
+
+/* Modal and Factor Analysis Styles */
+.modal.fade.show {
+  z-index: 1050;
+}
+
+.factor-card {
+  background-color: #ffffff;
+  border: 1px solid #e9ecef;
+  border-radius: 0.375rem;
+  margin-bottom: 1.5rem;
+  padding: 1.5rem;
+}
+
+.factor-description {
+  font-weight: 600;
+  color: #212529;
+  margin-bottom: 1rem;
+}
+
+.artifacts-table {
+  font-size: 0.9rem;
+}
+
+.conclusion-card {
+  background-color: #e9f7fd;
+  border-left: 5px solid #0dcaf0;
+}
+
+.modal-body {
+  max-height: 70vh;
+  overflow-y: auto;
+  background-color: #f8f9fa;
+}
+
+.modal-dialog.modal-xl {
+  max-width: 1140px;
+}
