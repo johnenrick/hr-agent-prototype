@@ -1,0 +1,26 @@
+# React Router Support for Apache/XAMPP
+# This ensures all routes work properly when serving from subfolders
+
+RewriteEngine On
+
+# Handle React Router routes
+# If the requested file/directory doesn't exist, serve index.html
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /index.html [L]
+
+# Enable CORS for local development
+Header always set Access-Control-Allow-Origin "*"
+Header always set Access-Control-Allow-Methods "GET, POST, PUT, DELETE, OPTIONS"
+Header always set Access-Control-Allow-Headers "Origin, X-Requested-With, Content-Type, Accept, Authorization"
+
+# Cache static assets
+<FilesMatch "\.(js|css|png|jpg|jpeg|gif|ico|svg|woff|woff2|ttf|eot)$">
+    ExpiresActive On
+    ExpiresDefault "access plus 1 year"
+</FilesMatch>
+
+# Security headers
+Header always set X-Content-Type-Options nosniff
+Header always set X-Frame-Options DENY
+Header always set X-XSS-Protection "1; mode=block"
